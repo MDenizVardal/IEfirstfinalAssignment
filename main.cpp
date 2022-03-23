@@ -96,5 +96,16 @@ int main()
     s2.addGrade(2.0);
     s2.displaySummary();
     s2.checkIfPassed();
-    std::cout<<"your grade's mean is: "<< s1.calcMeanGrade()<<std::endl;
+    std::cout<<"your grade's mean is: "<< s2.calcMeanGrade()<<std::endl;
+
+    Student s3;
+    s3.setAlbumNumber("150553");
+    s3.setName("Deniz");
+    s3.setSurName("Vardal");
+    s3.addGrade(3.0);
+    s3.addGrade(4.5);
+    s3.addGrade(5.0);
+    s3.displaySummary();
+    s3.checkIfPassed();
+    std::cout<<"your grade's mean is: "<< s3.calcMeanGrade()<<std::endl;
 }
